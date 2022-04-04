@@ -14,11 +14,13 @@ export PATH="/usr/local/opt/gnu-sed/libexec/gnubin:$PATH"
 export EDITOR="/usr/local/bin/nvim"
 
 alias rgrep='grep -r'
+alias gitlog='git log --graph --pretty=oneline --abbrev-commit --all --decorate'
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 ZSH_THEME="robbyrussell"
+#ZSH_THEME="powerlevel9k/powerlevel9k"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
