@@ -1,0 +1,1 @@
+.mongorc.js
